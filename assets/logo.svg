@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="40" height="40">
+  <defs>
+    <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3d5cb8" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+    <linearGradient id="trail-grad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e0e7ff" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#3d5cb8" stop-opacity="0.8" />
+    </linearGradient>
+  </defs>
+  <!-- Dynamic flight path swoosh -->
+  <path d="M15,80 C35,78 55,60 85,20" fill="none" stroke="url(#trail-grad)" stroke-width="5" stroke-linecap="round" />
+  <!-- Minimalist stylized modern jet airplane -->
+  <path d="M85,20 L40,40 L52,50 L58,72 Z" fill="url(#logo-grad)" />
+  <!-- Underwing shadow/depth -->
+  <path d="M85,20 L52,50 L58,54 Z" fill="#1e3a8a" opacity="0.4" />
+</svg>

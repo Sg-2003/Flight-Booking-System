@@ -42,7 +42,7 @@ Open `index.html` directly in your browser — no build tools or server required
 ## 📁 Project Structure
 
 ```
-Flight-booking/
+Flight-Booking-System/
 ├── index.html      # Main HTML page
 ├── style.css       # All styles, variables, and responsive breakpoints
 └── README.md       # Project documentation
@@ -90,7 +90,7 @@ No installation needed. Simply:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/flight-booking.git
+git clone https://github.com/Sg-2003/Flight-Booking-System.git
 
 # Open in browser
 start index.html      # Windows
